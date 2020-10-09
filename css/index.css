@@ -44,7 +44,7 @@ body a:hover{
     position: fixed;
     top: 0px;
     width: 300px;
-    height: 660px;
+    height: 700px;
     background: white;
     transform: translateX(-300px);
     transition: 0.5s;
