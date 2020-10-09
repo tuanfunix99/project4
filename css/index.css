@@ -1,0 +1,193 @@
+*{padding: 0px; margin: 0px;}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Merriweather', serif;
+}
+
+body.hideY{
+    overflow-y: hidden;
+}
+
+body a:hover{
+    text-decoration: none;
+}
+
+.navbar{
+    background: rgb(252, 251, 251);
+    text-align: center;
+    width: 100%;
+}
+
+.navbar a{
+    
+}
+
+.left a{
+    padding:0px 10px;
+}
+
+.icon{
+    width: 45px;
+    height: 45px;
+    display: none;
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+.menu-vertical{
+    position: fixed;
+    top: 0px;
+    width: 300px;
+    height: 660px;
+    background: white;
+    transform: translateX(-300px);
+    transition: 0.5s;
+    z-index: 2;
+    border-right: 1px solid rgb(221, 219, 219);
+}
+
+.menu-vertical.move{
+    transform: translateX(0px);
+    transition: 0.5s;
+}
+
+.menu-vertical .top{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(221, 219, 219);
+}
+
+.menu-vertical .top img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.menu-vertical .bottom li{
+    padding: 15px 10px;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(221, 219, 219);
+    transition: 0.5s;
+}
+
+.menu-vertical .bottom li:hover{
+    background: rgb(231, 231, 231);
+    transition: 0.5s;
+}
+
+.slide{
+    height: 660px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.slide img{
+    width: 100%;
+    height: 660px;
+}
+
+.view{
+
+    text-align: center;
+}
+
+.intro{
+
+}
+
+.intro p{
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.view .image_view{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.view .image_view:hover img{
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.view .image_view:hover .hide{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.view .image_view:hover h4{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.view  img{
+    width: 100%;
+    height: 236px;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.view  .hide{
+    position: absolute;
+    width: 100%;
+    height: 236px;
+    top: 0px;
+    left: 0px;
+    background: black;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+
+.view  h4{
+    width: 100%;
+    font-size: 150%;
+    position: absolute;
+    top: 50%;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: center;
+}
+
+footer {
+    background: rgb(253, 252, 252);
+}
+
+footer hr{
+    margin: 0px;
+}
+
+footer .social{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .social img{
+    width: 20px;
+    height: 20px;
+}
+
+footer .back{
+    color: #007bff;
+    cursor: pointer;
+}
+
+.review div{
+    width: 100%;
+    margin: auto;
+}
+
+.review div img{
+    width: 100%;
+}

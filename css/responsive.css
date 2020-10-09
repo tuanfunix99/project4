@@ -1,0 +1,15 @@
+@media screen and (max-width:987px){
+    .navbar .left{
+        display: none;
+    }
+    .navbar .icon{
+        display: block;
+    }
+}
+
+@media screen and (max-width:786px){
+   
+    .slide{
+        display: none;
+    }
+}
